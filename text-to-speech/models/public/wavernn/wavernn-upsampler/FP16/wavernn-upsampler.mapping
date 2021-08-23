@@ -1,0 +1,671 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="mels" output_port_id="mels" />
+		<IR name="mels" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Transpose_0" output_port_id="191" />
+		<IR name="Transpose_0" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.conv_in_f.weight" output_port_id="model.upsample.resnet.conv_in_f.weight" />
+		<IR name="model.upsample.resnet.conv_in_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_1" output_port_id="192" />
+		<IR name="Conv_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_2" output_port_id="193" />
+		<IR name="Relu_2" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.0.conv1_f.weight" output_port_id="model.upsample.resnet.layers.0.conv1_f.weight" />
+		<IR name="model.upsample.resnet.layers.0.conv1_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_3" output_port_id="194" />
+		<IR name="Conv_3" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_4" output_port_id="195" />
+		<IR name="Relu_4" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.0.conv2_f.weight" output_port_id="model.upsample.resnet.layers.0.conv2_f.weight" />
+		<IR name="model.upsample.resnet.layers.0.conv2_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_5" output_port_id="196" />
+		<IR name="Conv_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_6" output_port_id="197" />
+		<IR name="Add_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.1.conv1_f.weight" output_port_id="model.upsample.resnet.layers.1.conv1_f.weight" />
+		<IR name="model.upsample.resnet.layers.1.conv1_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_7" output_port_id="198" />
+		<IR name="Conv_7" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_8" output_port_id="199" />
+		<IR name="Relu_8" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.1.conv2_f.weight" output_port_id="model.upsample.resnet.layers.1.conv2_f.weight" />
+		<IR name="model.upsample.resnet.layers.1.conv2_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_9" output_port_id="200" />
+		<IR name="Conv_9" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_10" output_port_id="201" />
+		<IR name="Add_10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.2.conv1_f.weight" output_port_id="model.upsample.resnet.layers.2.conv1_f.weight" />
+		<IR name="model.upsample.resnet.layers.2.conv1_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_11" output_port_id="202" />
+		<IR name="Conv_11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_12" output_port_id="203" />
+		<IR name="Relu_12" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.2.conv2_f.weight" output_port_id="model.upsample.resnet.layers.2.conv2_f.weight" />
+		<IR name="model.upsample.resnet.layers.2.conv2_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_13" output_port_id="204" />
+		<IR name="Conv_13" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_14" output_port_id="205" />
+		<IR name="Add_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.3.conv1_f.weight" output_port_id="model.upsample.resnet.layers.3.conv1_f.weight" />
+		<IR name="model.upsample.resnet.layers.3.conv1_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_15" output_port_id="206" />
+		<IR name="Conv_15" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_16" output_port_id="207" />
+		<IR name="Relu_16" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.3.conv2_f.weight" output_port_id="model.upsample.resnet.layers.3.conv2_f.weight" />
+		<IR name="model.upsample.resnet.layers.3.conv2_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_17" output_port_id="208" />
+		<IR name="Conv_17" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_18" output_port_id="209" />
+		<IR name="Add_18" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.4.conv1_f.weight" output_port_id="model.upsample.resnet.layers.4.conv1_f.weight" />
+		<IR name="model.upsample.resnet.layers.4.conv1_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_19" output_port_id="210" />
+		<IR name="Conv_19" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_20" output_port_id="211" />
+		<IR name="Relu_20" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.4.conv2_f.weight" output_port_id="model.upsample.resnet.layers.4.conv2_f.weight" />
+		<IR name="model.upsample.resnet.layers.4.conv2_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_21" output_port_id="212" />
+		<IR name="Conv_21" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_22" output_port_id="213" />
+		<IR name="Add_22" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.5.conv1_f.weight" output_port_id="model.upsample.resnet.layers.5.conv1_f.weight" />
+		<IR name="model.upsample.resnet.layers.5.conv1_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_23" output_port_id="214" />
+		<IR name="Conv_23" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_24" output_port_id="215" />
+		<IR name="Relu_24" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.5.conv2_f.weight" output_port_id="model.upsample.resnet.layers.5.conv2_f.weight" />
+		<IR name="model.upsample.resnet.layers.5.conv2_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_25" output_port_id="216" />
+		<IR name="Conv_25" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_26" output_port_id="217" />
+		<IR name="Add_26" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.6.conv1_f.weight" output_port_id="model.upsample.resnet.layers.6.conv1_f.weight" />
+		<IR name="model.upsample.resnet.layers.6.conv1_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_27" output_port_id="218" />
+		<IR name="Conv_27" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_28" output_port_id="219" />
+		<IR name="Relu_28" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.6.conv2_f.weight" output_port_id="model.upsample.resnet.layers.6.conv2_f.weight" />
+		<IR name="model.upsample.resnet.layers.6.conv2_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_29" output_port_id="220" />
+		<IR name="Conv_29" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_30" output_port_id="221" />
+		<IR name="Add_30" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.7.conv1_f.weight" output_port_id="model.upsample.resnet.layers.7.conv1_f.weight" />
+		<IR name="model.upsample.resnet.layers.7.conv1_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_31" output_port_id="222" />
+		<IR name="Conv_31" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_32" output_port_id="223" />
+		<IR name="Relu_32" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.7.conv2_f.weight" output_port_id="model.upsample.resnet.layers.7.conv2_f.weight" />
+		<IR name="model.upsample.resnet.layers.7.conv2_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_33" output_port_id="224" />
+		<IR name="Conv_33" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_34" output_port_id="225" />
+		<IR name="Add_34" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.8.conv1_f.weight" output_port_id="model.upsample.resnet.layers.8.conv1_f.weight" />
+		<IR name="model.upsample.resnet.layers.8.conv1_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_35" output_port_id="226" />
+		<IR name="Conv_35" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_36" output_port_id="227" />
+		<IR name="Relu_36" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.8.conv2_f.weight" output_port_id="model.upsample.resnet.layers.8.conv2_f.weight" />
+		<IR name="model.upsample.resnet.layers.8.conv2_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_37" output_port_id="228" />
+		<IR name="Conv_37" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_38" output_port_id="229" />
+		<IR name="Add_38" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.9.conv1_f.weight" output_port_id="model.upsample.resnet.layers.9.conv1_f.weight" />
+		<IR name="model.upsample.resnet.layers.9.conv1_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_39" output_port_id="230" />
+		<IR name="Conv_39" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_40" output_port_id="231" />
+		<IR name="Relu_40" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.layers.9.conv2_f.weight" output_port_id="model.upsample.resnet.layers.9.conv2_f.weight" />
+		<IR name="model.upsample.resnet.layers.9.conv2_f.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_41" output_port_id="232" />
+		<IR name="Conv_41" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_42" output_port_id="233" />
+		<IR name="Add_42" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.upsample.resnet.conv_out.weight" output_port_id="model.upsample.resnet.conv_out.weight" />
+		<IR name="model.upsample.resnet.conv_out.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_43" output_port_id="234" />
+		<IR name="Conv_43" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_44/Unsqueeze" output_port_id="235" />
+		<IR name="Unsqueeze_44/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Shape_63" output_port_id="254" />
+		<IR name="Shape_63" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Slice_67" output_port_id="258" />
+		<IR name="Slice_67" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Shape_45" output_port_id="236" />
+		<IR name="Shape_45" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_46" output_port_id="237" />
+		<IR name="Constant_46" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gather_47252" output_port_id="238" />
+		<IR name="Gather_47252" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Cast_48" output_port_id="240" />
+		<IR name="Cast_48" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Cast_48" output_port_id="239" />
+		<IR name="Cast_48" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Floor_50" output_port_id="241" />
+		<IR name="Floor_50" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_59/Unsqueeze" output_port_id="250" />
+		<IR name="Unsqueeze_59/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Shape_51" output_port_id="242" />
+		<IR name="Shape_51" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_52" output_port_id="243" />
+		<IR name="Constant_52" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gather_53254" output_port_id="244" />
+		<IR name="Gather_53254" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Cast_54" output_port_id="245" />
+		<IR name="Cast_54" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_55" output_port_id="246" />
+		<IR name="Constant_55" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul_56" output_port_id="248" />
+		<IR name="Mul_56" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_56" output_port_id="247" />
+		<IR name="Mul_56" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Floor_58" output_port_id="249" />
+		<IR name="Floor_58" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_60/Unsqueeze" output_port_id="251" />
+		<IR name="Unsqueeze_60/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Concat_61" output_port_id="252" />
+		<IR name="Concat_61" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Cast_68" output_port_id="259" />
+		<IR name="Cast_68" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Concat_69" output_port_id="260" />
+		<IR name="Concat_69" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Resize_71" output_port_id="262" />
+		<IR name="Resize_71" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Squeeze_72" output_port_id="263" />
+		<IR name="Squeeze_72" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="aux" output_port_id="aux" />
+		<IR name="aux" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_73/Unsqueeze" output_port_id="264" />
+		<IR name="Unsqueeze_73/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Shape_92" output_port_id="283" />
+		<IR name="Shape_92" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Slice_96" output_port_id="287" />
+		<IR name="Slice_96" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Shape_74" output_port_id="265" />
+		<IR name="Shape_74" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_75" output_port_id="266" />
+		<IR name="Constant_75" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gather_76242" output_port_id="267" />
+		<IR name="Gather_76242" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Cast_77" output_port_id="269" />
+		<IR name="Cast_77" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Cast_77" output_port_id="268" />
+		<IR name="Cast_77" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Floor_79" output_port_id="270" />
+		<IR name="Floor_79" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_88/Unsqueeze" output_port_id="279" />
+		<IR name="Unsqueeze_88/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Shape_80" output_port_id="271" />
+		<IR name="Shape_80" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_81" output_port_id="272" />
+		<IR name="Constant_81" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gather_82244" output_port_id="273" />
+		<IR name="Gather_82244" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Cast_83" output_port_id="274" />
+		<IR name="Cast_83" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_84" output_port_id="275" />
+		<IR name="Constant_84" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul_85" output_port_id="277" />
+		<IR name="Mul_85" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_85" output_port_id="276" />
+		<IR name="Mul_85" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Floor_87" output_port_id="278" />
+		<IR name="Floor_87" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_89/Unsqueeze" output_port_id="280" />
+		<IR name="Unsqueeze_89/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Concat_90" output_port_id="281" />
+		<IR name="Concat_90" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Cast_97" output_port_id="288" />
+		<IR name="Cast_97" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Concat_98" output_port_id="289" />
+		<IR name="Concat_98" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Resize_100" output_port_id="291" />
+		<IR name="Resize_100" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.upsample.up_layers.1.weight" output_port_id="model.upsample.up_layers.1.weight" />
+		<IR name="model.upsample.up_layers.1.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_101" output_port_id="292" />
+		<IR name="Conv_101" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Shape_120" output_port_id="311" />
+		<IR name="Shape_120" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Slice_124" output_port_id="315" />
+		<IR name="Slice_124" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Shape_102" output_port_id="293" />
+		<IR name="Shape_102" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_103" output_port_id="294" />
+		<IR name="Constant_103" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gather_104250" output_port_id="295" />
+		<IR name="Gather_104250" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Cast_105" output_port_id="297" />
+		<IR name="Cast_105" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Cast_105" output_port_id="296" />
+		<IR name="Cast_105" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Floor_107" output_port_id="298" />
+		<IR name="Floor_107" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_116/Unsqueeze" output_port_id="307" />
+		<IR name="Unsqueeze_116/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Shape_108" output_port_id="299" />
+		<IR name="Shape_108" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_109" output_port_id="300" />
+		<IR name="Constant_109" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gather_110240" output_port_id="301" />
+		<IR name="Gather_110240" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Cast_111" output_port_id="302" />
+		<IR name="Cast_111" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_112" output_port_id="303" />
+		<IR name="Constant_112" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul_113" output_port_id="305" />
+		<IR name="Mul_113" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_113" output_port_id="304" />
+		<IR name="Mul_113" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Floor_115" output_port_id="306" />
+		<IR name="Floor_115" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_117/Unsqueeze" output_port_id="308" />
+		<IR name="Unsqueeze_117/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Concat_118" output_port_id="309" />
+		<IR name="Concat_118" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Cast_125" output_port_id="316" />
+		<IR name="Cast_125" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Concat_126" output_port_id="317" />
+		<IR name="Concat_126" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Resize_128" output_port_id="319" />
+		<IR name="Resize_128" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.upsample.up_layers.3.weight" output_port_id="model.upsample.up_layers.3.weight" />
+		<IR name="model.upsample.up_layers.3.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_129" output_port_id="320" />
+		<IR name="Conv_129" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Shape_148" output_port_id="339" />
+		<IR name="Shape_148" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Slice_152" output_port_id="343" />
+		<IR name="Slice_152" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Shape_130" output_port_id="321" />
+		<IR name="Shape_130" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_131" output_port_id="322" />
+		<IR name="Constant_131" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gather_132246" output_port_id="323" />
+		<IR name="Gather_132246" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Cast_133" output_port_id="325" />
+		<IR name="Cast_133" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Cast_133" output_port_id="324" />
+		<IR name="Cast_133" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Floor_135" output_port_id="326" />
+		<IR name="Floor_135" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_144/Unsqueeze" output_port_id="335" />
+		<IR name="Unsqueeze_144/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Shape_136" output_port_id="327" />
+		<IR name="Shape_136" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_137" output_port_id="328" />
+		<IR name="Constant_137" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gather_138248" output_port_id="329" />
+		<IR name="Gather_138248" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Cast_139" output_port_id="330" />
+		<IR name="Cast_139" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_140" output_port_id="331" />
+		<IR name="Constant_140" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Mul_141" output_port_id="333" />
+		<IR name="Mul_141" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_141" output_port_id="332" />
+		<IR name="Mul_141" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Floor_143" output_port_id="334" />
+		<IR name="Floor_143" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_145/Unsqueeze" output_port_id="336" />
+		<IR name="Unsqueeze_145/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Concat_146" output_port_id="337" />
+		<IR name="Concat_146" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Cast_153" output_port_id="344" />
+		<IR name="Cast_153" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Concat_154" output_port_id="345" />
+		<IR name="Concat_154" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Resize_156" output_port_id="347" />
+		<IR name="Resize_156" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.upsample.up_layers.5.weight" output_port_id="model.upsample.up_layers.5.weight" />
+		<IR name="model.upsample.up_layers.5.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_157" output_port_id="348" />
+		<IR name="Conv_157" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Squeeze_158" output_port_id="349" />
+		<IR name="Squeeze_158" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="upsample_mels" output_port_id="upsample_mels" />
+		<IR name="upsample_mels" output_port_id="2" />
+	</map>
+</mapping>

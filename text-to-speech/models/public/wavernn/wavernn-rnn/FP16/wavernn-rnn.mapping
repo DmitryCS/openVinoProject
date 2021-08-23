@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="a4_t" output_port_id="a4_t" />
+		<IR name="a4_t" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="a3_t" output_port_id="a3_t" />
+		<IR name="a3_t" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="a2_t" output_port_id="a2_t" />
+		<IR name="a2_t" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="h2.1" output_port_id="h2.1" />
+		<IR name="h2.1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="a1_t" output_port_id="a1_t" />
+		<IR name="a1_t" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="m_t" output_port_id="m_t" />
+		<IR name="m_t" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="x" output_port_id="x" />
+		<IR name="x" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="h1.1" output_port_id="h1.1" />
+		<IR name="h1.1" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Concat_0" output_port_id="206" />
+		<IR name="Concat_0" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="model.I.weight" output_port_id="model.I.weight" />
+		<IR name="model.I.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model.I.bias" output_port_id="model.I.bias" />
+		<IR name="model.I.bias" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gemm_1" output_port_id="207" />
+		<IR name="Gemm_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rnn1.weight_ih" output_port_id="rnn1.weight_ih" />
+		<IR name="rnn1.weight_ih" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="rnn1.bias_ih" output_port_id="rnn1.bias_ih" />
+		<IR name="rnn1.bias_ih" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gemm_2" output_port_id="208" />
+		<IR name="Gemm_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Split_3/VariadicSplit" output_port_id="209" />
+		<IR name="Split_3/VariadicSplit" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Split_3/VariadicSplit" output_port_id="210" />
+		<IR name="Split_3/VariadicSplit" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Split_3/VariadicSplit" output_port_id="211" />
+		<IR name="Split_3/VariadicSplit" output_port_id="5" />
+	</map>
+	<map>
+		<framework name="rnn1.weight_hh" output_port_id="rnn1.weight_hh" />
+		<IR name="rnn1.weight_hh" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="rnn1.bias_hh" output_port_id="rnn1.bias_hh" />
+		<IR name="rnn1.bias_hh" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gemm_4" output_port_id="212" />
+		<IR name="Gemm_4" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Split_5/VariadicSplit" output_port_id="213" />
+		<IR name="Split_5/VariadicSplit" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Split_5/VariadicSplit" output_port_id="214" />
+		<IR name="Split_5/VariadicSplit" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Split_5/VariadicSplit" output_port_id="215" />
+		<IR name="Split_5/VariadicSplit" output_port_id="5" />
+	</map>
+	<map>
+		<framework name="Add_6" output_port_id="216" />
+		<IR name="Add_6" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_7" output_port_id="217" />
+		<IR name="Sigmoid_7" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_10" output_port_id="220" />
+		<IR name="Mul_10" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_11" output_port_id="221" />
+		<IR name="Add_11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sub_13/sub" output_port_id="223" />
+		<IR name="Sub_13/sub" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_8" output_port_id="218" />
+		<IR name="Add_8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_9" output_port_id="219" />
+		<IR name="Sigmoid_9" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_14" output_port_id="224" />
+		<IR name="Mul_14" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="h1" output_port_id="h1" />
+		<IR name="h1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_16" output_port_id="226" />
+		<IR name="Add_16" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Concat_17" output_port_id="227" />
+		<IR name="Concat_17" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="rnn2.weight_ih" output_port_id="rnn2.weight_ih" />
+		<IR name="rnn2.weight_ih" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="rnn2.bias_ih" output_port_id="rnn2.bias_ih" />
+		<IR name="rnn2.bias_ih" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gemm_18" output_port_id="228" />
+		<IR name="Gemm_18" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Split_19/VariadicSplit" output_port_id="229" />
+		<IR name="Split_19/VariadicSplit" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Split_19/VariadicSplit" output_port_id="230" />
+		<IR name="Split_19/VariadicSplit" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Split_19/VariadicSplit" output_port_id="231" />
+		<IR name="Split_19/VariadicSplit" output_port_id="5" />
+	</map>
+	<map>
+		<framework name="rnn2.weight_hh" output_port_id="rnn2.weight_hh" />
+		<IR name="rnn2.weight_hh" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="rnn2.bias_hh" output_port_id="rnn2.bias_hh" />
+		<IR name="rnn2.bias_hh" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gemm_20" output_port_id="232" />
+		<IR name="Gemm_20" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Split_21/VariadicSplit" output_port_id="233" />
+		<IR name="Split_21/VariadicSplit" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Split_21/VariadicSplit" output_port_id="234" />
+		<IR name="Split_21/VariadicSplit" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Split_21/VariadicSplit" output_port_id="235" />
+		<IR name="Split_21/VariadicSplit" output_port_id="5" />
+	</map>
+	<map>
+		<framework name="Add_22" output_port_id="236" />
+		<IR name="Add_22" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_23" output_port_id="237" />
+		<IR name="Sigmoid_23" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_26" output_port_id="240" />
+		<IR name="Mul_26" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_27" output_port_id="241" />
+		<IR name="Add_27" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sub_29/sub" output_port_id="243" />
+		<IR name="Sub_29/sub" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_24" output_port_id="238" />
+		<IR name="Add_24" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Sigmoid_25" output_port_id="239" />
+		<IR name="Sigmoid_25" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_30" output_port_id="244" />
+		<IR name="Mul_30" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="h2" output_port_id="h2" />
+		<IR name="h2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_32" output_port_id="246" />
+		<IR name="Add_32" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Concat_33" output_port_id="247" />
+		<IR name="Concat_33" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.fc1.weight" output_port_id="model.fc1.weight" />
+		<IR name="model.fc1.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model.fc1.bias" output_port_id="model.fc1.bias" />
+		<IR name="model.fc1.bias" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gemm_34" output_port_id="248" />
+		<IR name="Gemm_34" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_35" output_port_id="249" />
+		<IR name="Relu_35" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Concat_36" output_port_id="250" />
+		<IR name="Concat_36" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.fc2.weight" output_port_id="model.fc2.weight" />
+		<IR name="model.fc2.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model.fc2.bias" output_port_id="model.fc2.bias" />
+		<IR name="model.fc2.bias" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gemm_37" output_port_id="251" />
+		<IR name="Gemm_37" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_38" output_port_id="252" />
+		<IR name="Relu_38" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="model.fc3.weight" output_port_id="model.fc3.weight" />
+		<IR name="model.fc3.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model.fc3.bias" output_port_id="model.fc3.bias" />
+		<IR name="model.fc3.bias" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="logits" output_port_id="logits" />
+		<IR name="logits" output_port_id="2" />
+	</map>
+</mapping>
