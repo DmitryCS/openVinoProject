@@ -1,0 +1,879 @@
+<?xml version="1.0"?>
+<mapping>
+	<map>
+		<framework name="input_seq" output_port_id="input_seq" />
+		<IR name="input_seq" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="model.embedding.weight" output_port_id="model.embedding.weight" />
+		<IR name="model.embedding.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gather_0426" output_port_id="259" />
+		<IR name="Gather_0426" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Transpose_26" output_port_id="407" />
+		<IR name="Transpose_26" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.0.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.0.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.0.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_30" output_port_id="411" />
+		<IR name="Conv_30" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_31" output_port_id="412" />
+		<IR name="Relu_31" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_32/variance/Fused_Add_" output_port_id="413" />
+		<IR name="BatchNormalization_32/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Shape_27" output_port_id="408" />
+		<IR name="Shape_27" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_28" output_port_id="409" />
+		<IR name="Constant_28" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gather_29430" output_port_id="410" />
+		<IR name="Gather_29430" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_33/Unsqueeze" output_port_id="417" />
+		<IR name="Unsqueeze_33/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_35" output_port_id="420" />
+		<IR name="Slice_35" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.1.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.1.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.1.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_36" output_port_id="421" />
+		<IR name="Conv_36" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_37" output_port_id="422" />
+		<IR name="Relu_37" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_38/variance/Fused_Add_" output_port_id="423" />
+		<IR name="BatchNormalization_38/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_39/Unsqueeze" output_port_id="427" />
+		<IR name="Unsqueeze_39/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_41" output_port_id="430" />
+		<IR name="Slice_41" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.2.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.2.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.2.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_42" output_port_id="431" />
+		<IR name="Conv_42" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_43" output_port_id="432" />
+		<IR name="Relu_43" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_44/variance/Fused_Add_" output_port_id="433" />
+		<IR name="BatchNormalization_44/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_45/Unsqueeze" output_port_id="437" />
+		<IR name="Unsqueeze_45/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_47" output_port_id="440" />
+		<IR name="Slice_47" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.3.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.3.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.3.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_48" output_port_id="441" />
+		<IR name="Conv_48" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_49" output_port_id="442" />
+		<IR name="Relu_49" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_50/variance/Fused_Add_" output_port_id="443" />
+		<IR name="BatchNormalization_50/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_51/Unsqueeze" output_port_id="447" />
+		<IR name="Unsqueeze_51/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_53" output_port_id="450" />
+		<IR name="Slice_53" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.4.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.4.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.4.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_54" output_port_id="451" />
+		<IR name="Conv_54" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_55" output_port_id="452" />
+		<IR name="Relu_55" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_56/variance/Fused_Add_" output_port_id="453" />
+		<IR name="BatchNormalization_56/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_57/Unsqueeze" output_port_id="457" />
+		<IR name="Unsqueeze_57/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_59" output_port_id="460" />
+		<IR name="Slice_59" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.5.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.5.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.5.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_60" output_port_id="461" />
+		<IR name="Conv_60" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_61" output_port_id="462" />
+		<IR name="Relu_61" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_62/variance/Fused_Add_" output_port_id="463" />
+		<IR name="BatchNormalization_62/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_63/Unsqueeze" output_port_id="467" />
+		<IR name="Unsqueeze_63/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_65" output_port_id="470" />
+		<IR name="Slice_65" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.6.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.6.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.6.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_66" output_port_id="471" />
+		<IR name="Conv_66" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_67" output_port_id="472" />
+		<IR name="Relu_67" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_68/variance/Fused_Add_" output_port_id="473" />
+		<IR name="BatchNormalization_68/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_69/Unsqueeze" output_port_id="477" />
+		<IR name="Unsqueeze_69/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_71" output_port_id="480" />
+		<IR name="Slice_71" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.7.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.7.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.7.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_72" output_port_id="481" />
+		<IR name="Conv_72" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_73" output_port_id="482" />
+		<IR name="Relu_73" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_74/variance/Fused_Add_" output_port_id="483" />
+		<IR name="BatchNormalization_74/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_75/Unsqueeze" output_port_id="487" />
+		<IR name="Unsqueeze_75/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_77" output_port_id="490" />
+		<IR name="Slice_77" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.8.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.8.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.8.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_78" output_port_id="491" />
+		<IR name="Conv_78" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_79" output_port_id="492" />
+		<IR name="Relu_79" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_80/variance/Fused_Add_" output_port_id="493" />
+		<IR name="BatchNormalization_80/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_81/Unsqueeze" output_port_id="497" />
+		<IR name="Unsqueeze_81/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_83" output_port_id="500" />
+		<IR name="Slice_83" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.9.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.9.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.9.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_84" output_port_id="501" />
+		<IR name="Conv_84" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_85" output_port_id="502" />
+		<IR name="Relu_85" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_86/variance/Fused_Add_" output_port_id="503" />
+		<IR name="BatchNormalization_86/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_87/Unsqueeze" output_port_id="507" />
+		<IR name="Unsqueeze_87/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_89" output_port_id="510" />
+		<IR name="Slice_89" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.10.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.10.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.10.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_90" output_port_id="511" />
+		<IR name="Conv_90" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_91" output_port_id="512" />
+		<IR name="Relu_91" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_92/variance/Fused_Add_" output_port_id="513" />
+		<IR name="BatchNormalization_92/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_93/Unsqueeze" output_port_id="517" />
+		<IR name="Unsqueeze_93/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_95" output_port_id="520" />
+		<IR name="Slice_95" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.11.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.11.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.11.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_96" output_port_id="521" />
+		<IR name="Conv_96" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_97" output_port_id="522" />
+		<IR name="Relu_97" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_98/variance/Fused_Add_" output_port_id="523" />
+		<IR name="BatchNormalization_98/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_99/Unsqueeze" output_port_id="527" />
+		<IR name="Unsqueeze_99/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_101" output_port_id="530" />
+		<IR name="Slice_101" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.12.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.12.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.12.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_102" output_port_id="531" />
+		<IR name="Conv_102" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_103" output_port_id="532" />
+		<IR name="Relu_103" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_104/variance/Fused_Add_" output_port_id="533" />
+		<IR name="BatchNormalization_104/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_105/Unsqueeze" output_port_id="537" />
+		<IR name="Unsqueeze_105/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_107" output_port_id="540" />
+		<IR name="Slice_107" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.13.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.13.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.13.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_108" output_port_id="541" />
+		<IR name="Conv_108" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_109" output_port_id="542" />
+		<IR name="Relu_109" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_110/variance/Fused_Add_" output_port_id="543" />
+		<IR name="BatchNormalization_110/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_111/Unsqueeze" output_port_id="547" />
+		<IR name="Unsqueeze_111/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_113" output_port_id="550" />
+		<IR name="Slice_113" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.14.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.14.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.14.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_114" output_port_id="551" />
+		<IR name="Conv_114" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_115" output_port_id="552" />
+		<IR name="Relu_115" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_116/variance/Fused_Add_" output_port_id="553" />
+		<IR name="BatchNormalization_116/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_117/Unsqueeze" output_port_id="557" />
+		<IR name="Unsqueeze_117/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_119" output_port_id="560" />
+		<IR name="Slice_119" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv1d_bank.15.conv.weight" output_port_id="model.prenet.cbhg.conv1d_bank.15.conv.weight" />
+		<IR name="model.prenet.cbhg.conv1d_bank.15.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_120" output_port_id="561" />
+		<IR name="Conv_120" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_121" output_port_id="562" />
+		<IR name="Relu_121" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_122/variance/Fused_Add_" output_port_id="563" />
+		<IR name="BatchNormalization_122/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_123/Unsqueeze" output_port_id="567" />
+		<IR name="Unsqueeze_123/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_125" output_port_id="570" />
+		<IR name="Slice_125" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="Concat_126" output_port_id="571" />
+		<IR name="Concat_126" output_port_id="16" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_127/Unsqueeze" output_port_id="572" />
+		<IR name="Unsqueeze_127/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="MaxPool_128" output_port_id="573" />
+		<IR name="MaxPool_128" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Squeeze_129" output_port_id="574" />
+		<IR name="Squeeze_129" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_130/Unsqueeze" output_port_id="578" />
+		<IR name="Unsqueeze_130/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Slice_132" output_port_id="581" />
+		<IR name="Slice_132" output_port_id="4" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.conv_project1.conv.weight" output_port_id="model.prenet.cbhg.conv_project1.conv.weight" />
+		<IR name="model.prenet.cbhg.conv_project1.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_133" output_port_id="582" />
+		<IR name="Conv_133" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_134" output_port_id="583" />
+		<IR name="Relu_134" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_135/variance/Fused_Add_" output_port_id="584" />
+		<IR name="BatchNormalization_135/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_137/mean/Fused_Mul__copy" output_port_id="model.prenet.cbhg.conv_project2.conv.weight" />
+		<IR name="BatchNormalization_137/mean/Fused_Mul__copy" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_137/variance/Fused_Add_" output_port_id="586" />
+		<IR name="BatchNormalization_137/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_138" output_port_id="587" />
+		<IR name="Add_138" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Transpose_139" output_port_id="588" />
+		<IR name="Transpose_139" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="855" output_port_id="855" />
+		<IR name="855" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="MatMul_142" output_port_id="593" />
+		<IR name="MatMul_142" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.highways.0.W2.bias" output_port_id="model.prenet.cbhg.highways.0.W2.bias" />
+		<IR name="model.prenet.cbhg.highways.0.W2.bias" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add_143" output_port_id="594" />
+		<IR name="Add_143" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="854" output_port_id="854" />
+		<IR name="854" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="MatMul_140" output_port_id="590" />
+		<IR name="MatMul_140" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.highways.0.W1.bias" output_port_id="model.prenet.cbhg.highways.0.W1.bias" />
+		<IR name="model.prenet.cbhg.highways.0.W1.bias" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add_141" output_port_id="591" />
+		<IR name="Add_141" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_145" output_port_id="596" />
+		<IR name="Relu_145" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_146" output_port_id="597" />
+		<IR name="Mul_146" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant_147" output_port_id="598" />
+		<IR name="Constant_147" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Sub_148/sub" output_port_id="599" />
+		<IR name="Sub_148/sub" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_149" output_port_id="600" />
+		<IR name="Mul_149" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_150" output_port_id="601" />
+		<IR name="Add_150" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="857" output_port_id="857" />
+		<IR name="857" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="MatMul_153" output_port_id="606" />
+		<IR name="MatMul_153" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.highways.1.W2.bias" output_port_id="model.prenet.cbhg.highways.1.W2.bias" />
+		<IR name="model.prenet.cbhg.highways.1.W2.bias" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add_154" output_port_id="607" />
+		<IR name="Add_154" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="856" output_port_id="856" />
+		<IR name="856" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="MatMul_151" output_port_id="603" />
+		<IR name="MatMul_151" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.highways.1.W1.bias" output_port_id="model.prenet.cbhg.highways.1.W1.bias" />
+		<IR name="model.prenet.cbhg.highways.1.W1.bias" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add_152" output_port_id="604" />
+		<IR name="Add_152" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_156" output_port_id="609" />
+		<IR name="Relu_156" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_157" output_port_id="610" />
+		<IR name="Mul_157" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant_158" output_port_id="611" />
+		<IR name="Constant_158" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Sub_159/sub" output_port_id="612" />
+		<IR name="Sub_159/sub" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_160" output_port_id="613" />
+		<IR name="Mul_160" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_161" output_port_id="614" />
+		<IR name="Add_161" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="859" output_port_id="859" />
+		<IR name="859" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="MatMul_164" output_port_id="619" />
+		<IR name="MatMul_164" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.highways.2.W2.bias" output_port_id="model.prenet.cbhg.highways.2.W2.bias" />
+		<IR name="model.prenet.cbhg.highways.2.W2.bias" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add_165" output_port_id="620" />
+		<IR name="Add_165" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="858" output_port_id="858" />
+		<IR name="858" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="MatMul_162" output_port_id="616" />
+		<IR name="MatMul_162" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.highways.2.W1.bias" output_port_id="model.prenet.cbhg.highways.2.W1.bias" />
+		<IR name="model.prenet.cbhg.highways.2.W1.bias" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add_163" output_port_id="617" />
+		<IR name="Add_163" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_167" output_port_id="622" />
+		<IR name="Relu_167" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_168" output_port_id="623" />
+		<IR name="Mul_168" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant_169" output_port_id="624" />
+		<IR name="Constant_169" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Sub_170/sub" output_port_id="625" />
+		<IR name="Sub_170/sub" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_171" output_port_id="626" />
+		<IR name="Mul_171" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_172" output_port_id="627" />
+		<IR name="Add_172" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="861" output_port_id="861" />
+		<IR name="861" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="MatMul_175" output_port_id="632" />
+		<IR name="MatMul_175" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.highways.3.W2.bias" output_port_id="model.prenet.cbhg.highways.3.W2.bias" />
+		<IR name="model.prenet.cbhg.highways.3.W2.bias" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add_176" output_port_id="633" />
+		<IR name="Add_176" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="860" output_port_id="860" />
+		<IR name="860" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="MatMul_173" output_port_id="629" />
+		<IR name="MatMul_173" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.prenet.cbhg.highways.3.W1.bias" output_port_id="model.prenet.cbhg.highways.3.W1.bias" />
+		<IR name="model.prenet.cbhg.highways.3.W1.bias" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Add_174" output_port_id="630" />
+		<IR name="Add_174" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_178" output_port_id="635" />
+		<IR name="Relu_178" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Mul_179" output_port_id="636" />
+		<IR name="Mul_179" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant_180" output_port_id="637" />
+		<IR name="Constant_180" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Sub_181/sub" output_port_id="638" />
+		<IR name="Sub_181/sub" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Mul_182" output_port_id="639" />
+		<IR name="Mul_182" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Add_183" output_port_id="640" />
+		<IR name="Add_183" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Transpose_190" output_port_id="651" />
+		<IR name="Transpose_190" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="862" output_port_id="862" />
+		<IR name="862" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Shape_184" output_port_id="641" />
+		<IR name="Shape_184" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_185" output_port_id="642" />
+		<IR name="Constant_185" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gather_186432" output_port_id="643" />
+		<IR name="Gather_186432" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_187/Unsqueeze" output_port_id="647" />
+		<IR name="Unsqueeze_187/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="863" output_port_id="863" />
+		<IR name="863" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Concat_188" output_port_id="649" />
+		<IR name="Concat_188" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="ConstantOfShape_189/Broadcast" output_port_id="650" />
+		<IR name="ConstantOfShape_189/Broadcast" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="GRU_191/FinalConcat/Data" output_port_id="768" />
+		<IR name="GRU_191/FinalConcat/Data" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Transpose_192" output_port_id="770" />
+		<IR name="Transpose_192" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant_193" output_port_id="771" />
+		<IR name="Constant_193" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Reshape_194" output_port_id="772" />
+		<IR name="Reshape_194" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="embeddings" output_port_id="embeddings" />
+		<IR name="embeddings" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Transpose_1" output_port_id="260" />
+		<IR name="Transpose_1" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.dur_pred.convs.0.conv.weight" output_port_id="model.dur_pred.convs.0.conv.weight" />
+		<IR name="model.dur_pred.convs.0.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_2" output_port_id="261" />
+		<IR name="Conv_2" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_3" output_port_id="262" />
+		<IR name="Relu_3" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_4/variance/Fused_Add_" output_port_id="263" />
+		<IR name="BatchNormalization_4/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.dur_pred.convs.1.conv.weight" output_port_id="model.dur_pred.convs.1.conv.weight" />
+		<IR name="model.dur_pred.convs.1.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_5" output_port_id="264" />
+		<IR name="Conv_5" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_6" output_port_id="265" />
+		<IR name="Relu_6" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_7/variance/Fused_Add_" output_port_id="266" />
+		<IR name="BatchNormalization_7/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.dur_pred.convs.2.conv.weight" output_port_id="model.dur_pred.convs.2.conv.weight" />
+		<IR name="model.dur_pred.convs.2.conv.weight" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Conv_8" output_port_id="267" />
+		<IR name="Conv_8" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Relu_9" output_port_id="268" />
+		<IR name="Relu_9" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="BatchNormalization_10/variance/Fused_Add_" output_port_id="269" />
+		<IR name="BatchNormalization_10/variance/Fused_Add_" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Transpose_18" output_port_id="281" />
+		<IR name="Transpose_18" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="774" output_port_id="774" />
+		<IR name="774" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Transpose_11" output_port_id="270" />
+		<IR name="Transpose_11" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Shape_12" output_port_id="271" />
+		<IR name="Shape_12" output_port_id="1" />
+	</map>
+	<map>
+		<framework name="Constant_13" output_port_id="272" />
+		<IR name="Constant_13" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Gather_14428" output_port_id="273" />
+		<IR name="Gather_14428" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="Unsqueeze_15/Unsqueeze" output_port_id="277" />
+		<IR name="Unsqueeze_15/Unsqueeze" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="775" output_port_id="775" />
+		<IR name="775" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Concat_16" output_port_id="279" />
+		<IR name="Concat_16" output_port_id="3" />
+	</map>
+	<map>
+		<framework name="ConstantOfShape_17/Broadcast" output_port_id="280" />
+		<IR name="ConstantOfShape_17/Broadcast" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="GRU_19/FinalConcat/Data" output_port_id="398" />
+		<IR name="GRU_19/FinalConcat/Data" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Transpose_20" output_port_id="400" />
+		<IR name="Transpose_20" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Constant_21" output_port_id="401" />
+		<IR name="Constant_21" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="Reshape_22" output_port_id="402" />
+		<IR name="Reshape_22" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="Transpose_23" output_port_id="403" />
+		<IR name="Transpose_23" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="819" output_port_id="819" />
+		<IR name="819" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="MatMul_24" output_port_id="405" />
+		<IR name="MatMul_24" output_port_id="2" />
+	</map>
+	<map>
+		<framework name="model.dur_pred.lin.bias" output_port_id="model.dur_pred.lin.bias" />
+		<IR name="model.dur_pred.lin.bias" output_port_id="0" />
+	</map>
+	<map>
+		<framework name="duration" output_port_id="duration" />
+		<IR name="duration" output_port_id="2" />
+	</map>
+</mapping>
