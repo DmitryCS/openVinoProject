@@ -1,0 +1,18 @@
+{
+   "model_config_list":[
+      {
+         "config":{
+            "name":"face-detection-retail-0004",
+            "base_path":"/opt/ml/face-detection-retail-0004",
+            "batch_size": "auto"
+         }
+      },
+      {
+         "config":{
+            "name":"facial-landmarks-35-adas-0002",
+            "base_path":"/opt/ml/facial-landmarks-35-adas-0002",
+            "batch_size": "auto"
+         }
+      }
+   ]
+}

@@ -42,10 +42,10 @@ parser.add_argument('--model_name', required=False, help='Name of the model to b
 parser.add_argument('--input_images_dir', required=False, help='Directory with input images', default="images/people")
 parser.add_argument('--output_dir', required=False, help='Directory for staring images with detection results', default="results")
 parser.add_argument('--batch_size', required=False, help='How many images should be grouped in one batch', default=1, type=int)
-parser.add_argument('--width', required=False, help='How the input image width should be resized in pixels', default=1200, type=int)
-parser.add_argument('--height', required=False, help='How the input image width should be resized in pixels', default=800, type=int)
+parser.add_argument('--width', required=False, help='How the input image width should be resized in pixels', default=544, type=int) #1200
+parser.add_argument('--height', required=False, help='How the input image width should be resized in pixels', default=320, type=int) #800
 parser.add_argument('--grpc_address',required=False, default='localhost',  help='Specify url to grpc service. default:localhost')
-parser.add_argument('--grpc_port',required=False, default=9000, help='Specify port to grpc service. default: 9000')
+parser.add_argument('--grpc_port',required=False, default=9001, help='Specify port to grpc service. default: 9001')
 
 args = vars(parser.parse_args())
 
@@ -122,3 +122,32 @@ for x in range(0, imgs.shape[0] - batch_size + 1, batch_size):
                                                                                   ))
 
 print_statistics(processing_times, batch_size)
+
+''' 
+docker run --rm -d -v $(pwd)/models/:/opt/ml/models -p 9001:9001 -p 8001:8001 -v $(pwd)/config.json:/opt/ml/config.json openvino/model_server:latest \
+--config_path /opt/ml/config.json --port 9001 --rest_port 8001 --log_level DEBUG
+
+
+docker run -d -u $(id -u):$(id -g) -v $(pwd)/models/:/models -p 9001:9001 -p 8001:8001 -v $(pwd)/config.json:/models/config.json openvino/model_server:latest \
+--config_path /models/config.json --port 9001 --rest_port 8001 --plugin_config '{"CPU_THROUGHPUT_STREAMS": "1"}' --shape auto
+
+docker run -d -u $(id -u):$(id -g) -v $(pwd)/models/:/models -p 9001:9001 -p 8001:8001 openvino/model_server:latest --port 9001 --rest_port 8001 --plugin_config '{"CPU_THROUGHPUT_STREAMS": "1"}' --shape auto
+
+docker run -d -u $(id -u):$(id -g) -v $(pwd)/models:/models -p 9000:9000 openvino/model_server:latest \
+--model_path /models/model1 --model_name model1 --port 9000 --plugin_config '{"CPU_THROUGHPUT_STREAMS": "1"}' --shape auto
+
+
+
+docker run --rm -d -v $(pwd)/models/:/opt/ml/models -p 9001:9001 -p 8001:8001 openvino/model_server:latest \
+--config_path /opt/ml/models/config.json --port 9001 --rest_port 8001
+
+
+HERE: 
+
+
+docker run --rm -d -v $(pwd)/models:/opt/ml:ro -p 9001:9001 -p 8001:8001 openvino/model_server:latest \
+--config_path /opt/ml/config.json --port 9001 --rest_port 8001
+
+
+python3 face_detection.py --model_name model1 --batch_size 1 --width 600 --height 400 --input_images_dir images --output_dir results
+'''

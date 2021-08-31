@@ -27,7 +27,7 @@ parser.add_argument('--batch_size', required=False, help='How many images should
 parser.add_argument('--width', required=False, help='How the input image width should be resized in pixels', default=62, type=int)
 parser.add_argument('--height', required=False, help='How the input image width should be resized in pixels', default=62, type=int)
 parser.add_argument('--rest_address',required=False, default='localhost',  help='Specify url to grpc service. default:localhost')
-parser.add_argument('--rest_port',required=False, default=9000, help='Specify port to grpc service. default: 9000')
+parser.add_argument('--rest_port',required=False, default=8001, help='Specify port to grpc service. default: 9003')
 
 args = vars(parser.parse_args())
 files = os.listdir(args['input_images_dir'])
@@ -40,7 +40,7 @@ for i in files:
     img = load_image(os.path.join(args['input_images_dir'], i))
     data_obj = {'inputs':  img.tolist()}
     data_json = json.dumps(data_obj)
-    result = requests.post("http://localhost:9003/v1/models/age_gender:predict", data=data_json)
+    result = requests.post("http://localhost:8001/v1/models/age_gender:predict", data=data_json)
     result_dict = json.loads(result.text)
     print(result_dict)
     # result_flag = cv2.imwrite(r'./some_'+str(i), img[0].transpose(1,2,0))
