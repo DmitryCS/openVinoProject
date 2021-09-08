@@ -3,6 +3,7 @@
 ### Age and gender recognition is presented in the [age-gender-recognition](https://github.com/DmitryCS/openVinoProject/tree/master/age-gender-recognition) folder.
 ### Face and landmarks recognition is presented in the [face-landmarks-detection](https://github.com/DmitryCS/openVinoProject/tree/master/face-landmarks-detection) folder.
 ### Text to voice translation is presented in the [text-to-speech](https://github.com/DmitryCS/openVinoProject/tree/master/text-to-speech) folder.
+### Face detection, age-gender-recognition, head-pose-estimation, emotions-recognition, facial-landmarks is presented in the [interactive_face_detection_demo](https://github.com/DmitryCS/openVinoProject/tree/master/interactive_face_detection_demo) folder.
 #### Tutorial for face_detection here: <br>
 Download the Docker* image that contains the OpenVINO Model Server. This image is available from DockerHub:`docker pull openvino/model_server:latest`
 <br>Doesn't work: "`curl --create-dirs https://storage.openvinotoolkit.org/repositories/open_model_zoo/2021.4/models_bin/1/age-gender-recognition-retail-0013/FP32/age-gender-recognition-retail-0013.xml https://storage.openvinotoolkit.org/repositories/open_model_zoo/2021.4/models_bin/1/age-gender-recognition-retail-0013/FP32/age-gender-recognition-retail-0013.bin -o model/1/age-gender-recognition-retail-0013.xml -o model/1/age-gender-recognition-retail-0013.bin`"

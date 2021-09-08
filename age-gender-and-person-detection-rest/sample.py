@@ -14,7 +14,7 @@ parser.add_argument('--output_dir', required=False, help='Directory for staring 
 args = vars(parser.parse_args())
 
 
-def getJpeg(path: str, size_h: int, size_w: int) -> type(np.array(1)):
+def getJpeg(path: str, size_h: int, size_w: int) -> np.ndarray:
     img = cv2.imread(path, cv2.IMREAD_COLOR)
     # retrieved array has BGR format and 0-255 normalization
     img = cv2.resize(img, (size_h, size_w))
