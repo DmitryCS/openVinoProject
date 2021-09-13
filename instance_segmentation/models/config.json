@@ -1,0 +1,20 @@
+{
+   "model_config_list":[
+      {
+         "config":{
+            "name":"segmentation",
+            "base_path":"/opt/ml/segmentation/FP16",
+            "batch_size": "auto",
+            "target_device": "CPU"
+         }
+      },
+	{
+         "config":{
+            "name":"age-gender",
+            "base_path":"/opt/ml/age-gender/FP16",
+            "batch_size": "auto",
+            "target_device": "CPU"
+         }
+      }
+   ]
+}
