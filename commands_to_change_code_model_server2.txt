@@ -1,0 +1,30 @@
+docker run -it --net=host --privileged --name dmitrycs_test -v ${PWD}:/ovms --entrypoint bash openvino/model_server-build:latest 
+
+
+docker run -it -p 52023 --name dmitrycs_test -v ${PWD}:/ovms --entrypoint bash openvino/model_server-build:latest 
+bazel build //src:ovms
+
+
+cp -r /ovm/instance_segmentation/models /opt/ml
+./bazel-bin/src/ovms --config_path /opt/ml/config.json --port 9001 --rest_port 8001
+
+
+apt update
+apt-get install openssh-server
+#systemctl enable ssh
+#systemctl start ssh
+service ssh start
+
+useradd donteco
+passwd donteco
+
+#ssh user@server-name
+1)
+mkdir /tmp/d
+sshfs -p 52023 -o allow_other,default_permissions donteco@127.0.0.1:/ /tmp/d
+
+2) 
+sh -s 'sh;1212123231223321'
+ps -eaf | grep 1212123231223321 | grep -v grep
+cd /proc/`ps -eaf | grep 1212123231223321 | grep -v grep | awk '{print $2}'`/root
+/proc/<pid>/root
