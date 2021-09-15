@@ -1,0 +1,8 @@
+# from directory with model_server and instance_segmentation folder
+
+docker run -it --net=host --privileged --name dmitrycs_test -v ${PWD}:/ovms --entrypoint bash openvino/model_server-build:latest 
+bazel build //src:ovms
+
+
+cp -r /ovm/instance_segmentation/models /opt/ml
+./bazel-bin/src/ovms --config_path /opt/ml/config.json --port 9001 --rest_port 8001
