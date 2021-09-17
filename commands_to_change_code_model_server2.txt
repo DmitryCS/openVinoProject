@@ -1,11 +1,11 @@
 docker run -it --net=host --privileged --name dmitrycs_test -v ${PWD}:/ovms --entrypoint bash openvino/model_server-build:latest 
 
 
-docker run -it -p 52023 --name dmitrycs_test -v ${PWD}:/ovms --entrypoint bash openvino/model_server-build:latest 
+docker run -it -p 52023:22 -p 8001:8001 -p 9001:9001 --name dmitrycs_test -v ${PWD}:/ovms --entrypoint bash openvino/model_server-build:latest
 bazel build //src:ovms
 
 
-cp -r /ovm/instance_segmentation/models /opt/ml
+cp -r /ovms/instance_segmentation/models /opt/ml
 ./bazel-bin/src/ovms --config_path /opt/ml/config.json --port 9001 --rest_port 8001
 
 
@@ -21,10 +21,19 @@ passwd donteco
 #ssh user@server-name
 1)
 mkdir /tmp/d
-sshfs -p 52023 -o allow_other,default_permissions donteco@127.0.0.1:/ /tmp/d
-
+sshfs -p 52023 -o allow_other,default_permissions donteco@localhost:/ /tmp/d
+umount /home/dmitry/Downloads/attempt_docker_model_server/HERE_DOCKER_CONTAINER
+mkdir HERE_DOCKER_CONTAINER
+sshfs -p 52023 -o default_permissions donteco@localhost:/ /home/dmitry/Downloads/attempt_docker_model_server/HERE_DOCKER_CONTAINER
 2) 
 sh -s 'sh;1212123231223321'
 ps -eaf | grep 1212123231223321 | grep -v grep
 cd /proc/`ps -eaf | grep 1212123231223321 | grep -v grep | awk '{print $2}'`/root
 /proc/<pid>/root
+
+
+server:
+sshfs -p 222 -o default_permissions,sshfs_sync donteco@213.27.16.25:/home/donteco/dmitrycs_folder/HERE_DOCKER_CONTAINER/ovms /home/dmitry/Downloads/attempt_docker_model_server/HERE_DOCKER_CONTAINER_DONTECO
+docker run -it -p 52023:22 -p 8001:8001 -p 9001:9001 --name dmitrycs_test -v ${PWD}:/ovms --entrypoint bash openvino/model_server-build:latest
+cp -r /ovms/age-gender-and-person-detection-rest/models /opt/ml
+sshfs -p 52023 -o default_permissions donteco@localhost:/ /home/donteco/dmitrycs_folder/HERE_DOCKER_CONTAINER
